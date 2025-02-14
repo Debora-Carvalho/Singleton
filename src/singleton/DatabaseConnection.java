@@ -7,7 +7,7 @@ package singleton;
  * 
  */
 public class DatabaseConnection {
-//instância única do Singleton - atributo privado estático
+    //instância única do Singleton - atributo privado estático
 	private static DatabaseConnection instance;
 	
 	//Construtor privado
