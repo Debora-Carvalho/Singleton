@@ -11,9 +11,9 @@ public class ConfigManager {
 	private static ConfigManager instance;
 	
 	//Atributo para armazenar as configurações
-	private String properties = "\\n app.name=Sistema \r\n"
-			+ "Empresarial \\n app.version=1.0 \\n app.language=pt-BR \\n \r\n"
-			+ "currency=BRL \\n timeout=300 segundos";
+	private String properties = "\napp.name=Sistema Empresarial"
+			+ "\napp.version=1.0 \napp.language=pt-BR \n"
+			+ "currency=BRL \ntimeout=300 segundos";
 	
 	//Construtor privado
 	private ConfigManager() {
